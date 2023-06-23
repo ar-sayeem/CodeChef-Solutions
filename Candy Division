@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+    int t;
+    scanf("%d", &t);
+
+    while(t--)
+    {
+        int c;
+        scanf("%d", &c);
+        (c%3==0) ? printf("YES\n") : printf("NO\n");
+    }
+    return 0;
+}
