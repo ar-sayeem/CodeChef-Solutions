@@ -1,0 +1,17 @@
+//Practice makes us perfect
+
+#include<stdio.h>
+
+int main()
+{
+    int a, b, c, d, M=0;
+    scanf("%d %d %d %d", &a, &b, &c, &d);
+    int array[] = {a, b, c, d};
+    for(int i=0; i<4; i++)
+    {
+        if(array[i]>=10)
+            M++;
+    }
+    printf("%d\n",M);
+    return 0;
+}
