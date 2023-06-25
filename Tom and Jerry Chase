@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int t, speedOfJerry, speedOfTom ;
+    scanf("%d",&t);
+
+    while(t--)
+    {
+        scanf("%d %d", &speedOfJerry, &speedOfTom);
+        if( speedOfTom > speedOfJerry )
+        {
+            printf("YES\n");
+        }
+        else
+        {
+            printf("NO\n");
+        }
+    }
+    return 0;
+}
+/*
+eXplanation::
+>> First, we took an integer number for test cases 't' , and we used 'while loop'.
+
+>> In the while loop, we took two integers from the user, one for the speed of Jerry and another for the speed of Tom.
+
+>> If the speed of Tom is greater than the speed of Jerry, "YES" will be printed, meaning Tom will be able to catch Jerry.
+
+>> On the other hand, if the speed of Tom is less than that of Jerry, "NO" will be printed, meaning Tom will not be able to catch Jerry.
+*/
