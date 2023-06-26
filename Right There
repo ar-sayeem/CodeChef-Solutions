@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main()
+{
+    int t;
+        scanf("%d",&t);
+
+    while(t--)
+    {
+        int a, b;
+        //a = number of people || b = capacity of people
+        scanf("%d %d", &a, &b);
+        (a<=b) ? printf("YES\n") : printf("NO\n");
+    }
+    return 0;
+}
+
+/*
+eXplanation::
+>> We will take an integer number for test case 't'. In the code, we used 'while loop'.
+
+>> In the while loop, two integers 'a' and 'b' are taken as inputs.
+
+>> if a (number of people) is less than or equal to b (capacity of people), "YES" will be printed; if not, "NO" will be printed.
+*/
