@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main()
+{
+    int t;
+    scanf("%d", &t);
+    while(t--)
+    {
+        int x, y;
+        scanf("%d %d", &x, &y);
+        printf("%d\n", x-y);
+    }
+    return 0;
+}
+
+/*
+xEplanation::
+>> We will take an integer number for test case 't'. In the code, we used a 'while loop'.
+
+>> In the while loop, two integers, 'x' and 'y' are taken as input.
+
+>> x = the amount you earned || y = the amount above which you will have to pay taxes.
+
+>>  We just need to subtract y from x means [x-y].
+
+>> Then we print the value of x-y.
+*/
