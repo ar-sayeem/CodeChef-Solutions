@@ -1,0 +1,26 @@
+#include<stdio.h>
+
+int main()
+{
+    int t;
+        scanf("%d",&t);
+
+    while(t--)
+    {
+        int a;
+        //a = free time || episode length 24(minutes)
+        scanf("%d", &a);
+        (a > 24) ? printf("YES\n") : printf("NO\n");
+    }
+    return 0;
+}
+/*
+explanation::
+>> We will take an integer number for test case 't'. In the code, we used 'while loop'.
+
+>> In the while loop, one integer 'a' is taken as input.
+
+>> If input-a ( minutes of free time) is greater than 24, which is easily enough to finish watching a 24-minute episode. Hence, the answer is "Yes".
+
+>> If input-a is less than or equal to 24, which is "not enough" or "not strictly before", the exam starts to finish watching a 24-minute episode. Hence, the answer is "No".
+*/
